@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Login Forms</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+       
+    
+</head>
+<body>
+        <div class="login">
+           <img src="Assets/building.jpg" alt="login-background" class="login-background"> 
+
+           <form action="" class="login-form">
+                <h1 class="login-title">Login</h1>
+
+                <div class="login-content">
+
+                    <div class="login-box">
+                        <i class="ri-user-line"></i>
+                        <div class="login-box-input">
+                            <input type="email" class="login-input" required placeholder="">
+                            <label for="" class="login-label"> Email </label>
+                        </div>
+                    </div>
+                    <div class="login-box">
+                        <i class="ri-lock-line"></i>
+                        <div class="login-box-input">
+                            <input type="password" class="login-input" required placeholder="" id="login-password">
+                            <label for="" class="login-label-pass"> Password </label>
+                            <i class="ri-eye-off-line login-eye" id="login-eye"></i>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="login-check">
+                    <div class="login-check-group">
+                        <input type="checkbox" class="login-checkbox">
+                        <label for="" class="login-check-label">Remember me </label>
+                    </div>
+
+                    <a href="#" class="login-forgot">Forgot Password ?</a>
+                </div>
+
+                <button class="login-button"> Login</button>
+
+                <p class="login-register">
+                    Don't have an account yet?
+                    <a href="#">Register</a>
+                </p>
+           </form>
+        </div>
+
+        <script src="javascript.js"></script>
+</body>
+</html>
